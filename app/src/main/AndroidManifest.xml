@@ -9,6 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dahlia">
+        <activity android:name=".Refund_Details"
+            android:label="REFUND DETAILS"></activity>
+        <activity android:name=".My_refunds"
+            android:label="MY REFUNDS"/>
+        <activity
+            android:name=".new_refund"
+            android:label="NEW REFUND" />
+        <activity
+            android:name=".my_comments"
+            android:label="MY COMMENTS" />
+        <activity
+            android:name=".add_feedbacks"
+            android:exported="true"
+            android:label="ADD NEW FEEDBACKS" />
+        <activity
+            android:name=".update_comments"
+            android:exported="true"
+            android:label="UPDATE COMMENTS" />
+        <activity
+            android:name=".Refunds_home"
+            android:exported="true"
+            android:label="REFUNDS" />
+        <activity
+            android:name=".FeedBack_home"
+            android:exported="true"
+            android:label="FEEDBACKS" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

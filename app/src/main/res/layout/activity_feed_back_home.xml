@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedBack_home">
+
+  <ImageView
+      android:id="@+id/imgFeedbackHome"
+      android:layout_width="447dp"
+      android:layout_height="733dp"
+      android:adjustViewBounds="true"
+      android:alpha="0.85"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/bgfeed" />
+
+  <TextView
+      android:id="@+id/txtFeedbackDescription"
+      android:layout_width="292dp"
+      android:layout_height="187dp"
+      android:gravity="center|center_vertical"
+      android:text="@string/feedback_text"
+      android:textSize="20sp"
+      android:textStyle="bold|italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.134"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.154" />
+
+  <Button
+      android:id="@+id/btnAdd_feedback"
+      android:layout_width="195dp"
+      android:layout_height="0dp"
+      android:layout_marginTop="68dp"
+      android:background="@drawable/button"
+      android:onClick="sendAddFeedback"
+      android:text="@string/add_feedback"
+      android:textColorHint="#040303"
+      app:backgroundTint="#535050"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtFeedbackDescription" />
+
+  <Button
+      android:id="@+id/btnMy_comments"
+      android:layout_width="195dp"
+      android:layout_height="52dp"
+      android:layout_marginTop="40dp"
+      android:background="@drawable/button"
+      android:onClick="sendToMyComments"
+      android:text="@string/my_comments"
+      app:backgroundTint="#535050"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnAdd_feedback"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <ImageView
+      android:id="@+id/DahliaLogo"
+      android:layout_width="445dp"
+      android:layout_height="112dp"
+      android:adjustViewBounds="true"
+      android:contentDescription="@string/des_logo"
+      android:scaleType="centerCrop"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/black3x" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
