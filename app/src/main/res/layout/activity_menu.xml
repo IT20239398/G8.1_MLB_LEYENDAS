@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground_image"
+    android:orientation="vertical"
+    tools:context=".menu"
+    android:alpha="0.899">
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/img_menubackground"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:alpha="0.889"-->
+    <!--        android:scaleType="fitXY"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.0"-->
+    <!--        app:srcCompat="@drawable/menubackground_image"-->
+    <!--        android:contentDescription="TODO" />-->
+
+
+    <ImageView
+        android:id="@+id/img_logomenu"
+        android:layout_width="409dp"
+        android:layout_height="159dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoedited"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_menuhome"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@drawable/home"
+        android:drawableTint="#FFF"
+        android:minWidth="32dp"
+        android:text="HOME"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logomenu"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menucategories"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/categories"
+        android:drawableTint="#FFF"
+        android:text="CATEGORIES"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menuhome"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menucart"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/cart"
+        android:drawableTint="#FFF"
+        android:text="CART"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menucategories"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menuwishlist"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/wishlist"
+        android:drawableTint="#FFF"
+        android:text="WISH LIST"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menucart"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menuyourorders"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/yourorders"
+        android:drawableTint="#FFF"
+        android:text="YOUR ORDERS"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menuwishlist"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menurefund"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/refund"
+        android:drawableTint="#FFF"
+        android:text="REFUND"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menuyourorders"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menufeedback"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/feedback"
+        android:drawableTint="#FFF"
+        android:text="FEEDBACK"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menurefund"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_menumyaccount"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/profile"
+        android:drawableTint="#FFF"
+        android:text="MY ACCOUNT"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_menufeedback"
+        app:strokeColor="#FFF"
+        app:strokeWidth="1dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

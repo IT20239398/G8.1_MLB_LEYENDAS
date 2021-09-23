@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Categories">
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical" />-->
+
+        <Button
+            android:id="@+id/btn_catdresses"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/ushanibuttons"
+            android:clickable="true"
+            android:drawableRight="@drawable/next"
+            android:focusable="true"
+            android:gravity="start"
+            android:text="@string/btn_catdresses"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_cattops"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ushanibuttons"
+            android:clickable="true"
+            android:drawableRight="@drawable/next"
+            android:focusable="true"
+            android:gravity="start"
+            android:text="@string/btn_cattops"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_catdresses"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_catdresses"
+            app:layout_constraintTop_toBottomOf="@+id/btn_catdresses" />
+
+        <Button
+            android:id="@+id/btn_cattshirts"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ushanibuttons"
+            android:clickable="true"
+            android:drawableRight="@drawable/next"
+            android:focusable="true"
+            android:gravity="start"
+            android:text="@string/btn_cattshirts"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_cattops"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_cattops"
+            app:layout_constraintTop_toBottomOf="@+id/btn_cattops" />
+
+        <Button
+            android:id="@+id/btn_catshortsjeans"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ushanibuttons"
+            android:drawableRight="@drawable/next"
+            android:gravity="start"
+            android:text="@string/btn_catshortsjeans"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_cattshirts"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_cattshirts"
+            app:layout_constraintTop_toBottomOf="@+id/btn_cattshirts" />
+
+        <Button
+            android:id="@+id/btn_catnightwear"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ushanibuttons"
+            android:drawableRight="@drawable/next"
+            android:gravity="start"
+            android:text="@string/btn_catnightwear"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_catshortsjeans"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_catshortsjeans"
+            app:layout_constraintTop_toBottomOf="@+id/btn_catshortsjeans" />
+
+        <Button
+            android:id="@+id/btn_catoffers"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ushanibuttons"
+            android:drawableRight="@drawable/next"
+            android:gravity="start"
+            android:text="@string/btn_catoffers"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_catnightwear"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_catnightwear"
+            app:layout_constraintTop_toBottomOf="@+id/btn_catnightwear" />
+
+        <Button
+            android:id="@+id/btn_catnewarrivals"
+            android:layout_width="361dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ushanibuttons"
+            android:drawableRight="@drawable/next"
+            android:gravity="start"
+            android:text="@string/btn_catnewarrivals"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E4DDDD"
+            app:layout_constraintEnd_toEndOf="@+id/btn_catnightwear"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_catnightwear"
+            app:layout_constraintTop_toBottomOf="@+id/btn_catoffers" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="407dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="#E8DEE1"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_toolcat"
+            android:layout_width="194dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="8dp"
+            android:text="CATEGORIES"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar4"
+            app:layout_constraintHorizontal_bias="0.392"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/toolbar4"
+            tools:ignore="HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:background="#E8DEE1"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+            app:layout_constraintStart_toEndOf="@+id/txt_toolcat"
+            app:layout_constraintTop_toTopOf="@+id/toolbar4"
+            app:layout_constraintVertical_bias="0.47"
+            app:srcCompat="@drawable/search"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#E8DEE1"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar4"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="@+id/toolbar4"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="60dp"
+            android:layout_height="57dp"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+            app:layout_constraintStart_toStartOf="@+id/toolbar4"
+            app:layout_constraintTop_toTopOf="@+id/toolbar4"
+            app:srcCompat="@drawable/menu"
+            android:background="#E8DEE1"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

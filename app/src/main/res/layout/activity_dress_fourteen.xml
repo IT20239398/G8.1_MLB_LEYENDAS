@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    tools:ignore="SpeakableTextPresentCheck"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".dress_fourteen">
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical" />-->
+
+        <TextView
+            android:id="@+id/txt_dress14name"
+            android:layout_width="329dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:text="Halter Neck Mini Dress By Coco"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/img_dress14"
+            app:layout_constraintStart_toStartOf="@+id/img_dress14"
+            app:layout_constraintTop_toBottomOf="@+id/img_dress14"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/txt_dress14price"
+            android:layout_width="329dp"
+            android:layout_height="20dp"
+            android:text="LKR 1495/="
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/txt_dress14name"
+            app:layout_constraintStart_toStartOf="@+id/txt_dress14name"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14name"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/txt_dress14size"
+            android:layout_width="67dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:text="SIZE : "
+            app:layout_constraintEnd_toEndOf="@+id/txt_dress14price"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txt_dress14price"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_dressS"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btnssize"
+            android:scaleType="center"
+            android:text="S"
+            android:textColor="#000"
+            app:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/txt_dress14size"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dressM"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btnssize"
+            android:scaleType="center"
+            android:text="M"
+            android:textColor="#000"
+            app:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/btn_dressS"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dressL"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btnssize"
+            android:scaleType="center"
+            android:text="L"
+            android:textColor="#000"
+            app:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/btn_dressM"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dressXL"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btnssize"
+            android:scaleType="center"
+            android:text="XL"
+            android:textColor="#000"
+            app:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/btn_dressL"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dressXXL"
+            android:layout_width="54dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btnssize"
+            android:scaleType="center"
+            android:text="XXL"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/btn_dressL"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/txt_dresscolor"
+            android:layout_width="71dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txt_dress13color"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/txt_dress14size"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14size" />
+
+        <Button
+            android:id="@+id/btn_dressred"
+            android:layout_width="46dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btncolor"
+            app:backgroundTint="#E11010"
+            app:layout_constraintStart_toEndOf="@+id/txt_dresscolor"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dressS"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dresslightpink"
+            android:layout_width="44dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btncolor"
+            app:backgroundTint="#D67C9B"
+            app:layout_constraintStart_toEndOf="@+id/btn_dressred"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dressS"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dresslightblue"
+            android:layout_width="44dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btncolor"
+            app:backgroundTint="#7BB7E6"
+            app:layout_constraintStart_toEndOf="@+id/btn_dresslightpink"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dressS"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dressblack"
+            android:layout_width="44dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ushani_dress_btncolor"
+            app:backgroundTint="#000000"
+            app:layout_constraintStart_toEndOf="@+id/btn_dresslightblue"
+            app:layout_constraintTop_toTopOf="@+id/btn_dresslightblue"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_dresspurple"
+            android:layout_width="44dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ushani_dress_btncolor"
+            app:backgroundTint="#9C27B0"
+            app:layout_constraintStart_toEndOf="@+id/btn_dressblack"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dressL"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/img_dress14"
+            android:layout_width="353dp"
+            android:layout_height="515dp"
+            android:layout_marginTop="145dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dress14" />
+
+        <ImageButton
+            android:id="@+id/btn_addwishlist"
+            android:layout_width="54dp"
+            android:layout_height="57dp"
+            android:background="#EFE6E8"
+            app:layout_constraintBottom_toTopOf="@+id/txt_dress14name"
+            app:layout_constraintEnd_toEndOf="@+id/img_dress14"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="@+id/img_dress14"
+            app:layout_constraintTop_toTopOf="@+id/img_dress14"
+            app:layout_constraintVertical_bias="0.017"
+            app:srcCompat="@drawable/addwishlist"
+            tools:ignore="SpeakableTextPresentCheck,VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/txt_dress14quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="QUANTITY: "
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/txt_dresscolor"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dresscolor"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_qntdecrement"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:onClick="decrement"
+            android:text="-"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:backgroundTint="#E6CECE"
+            android:background="@drawable/ushani_dress_btnqnt"
+            app:layout_constraintStart_toEndOf="@+id/txt_dress14quantity"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dresslightpink"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_qntdecrement2"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:onClick="increment"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:backgroundTint="#E6CECE"
+            android:background="@drawable/ushani_dress_btnqnt"
+            app:layout_constraintEnd_toEndOf="@+id/btn_dresspurple"
+            app:layout_constraintStart_toEndOf="@+id/qntvalue"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dressblack"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/qntvalue"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/btn_qntdecrement"
+            app:layout_constraintTop_toBottomOf="@+id/btn_dresslightblue" />
+
+        <Button
+            android:id="@+id/btn_addtocart"
+            android:layout_width="266dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="248dp"
+            android:background="@drawable/ushani_dress_btnqnt"
+            android:drawableEnd="@drawable/cart"
+            android:drawableRight="@drawable/cart"
+            android:text="ADD TO CART"
+            android:textColor="#000000"
+            app:backgroundTint="#BCB4B7"
+            app:layout_constraintEnd_toEndOf="@+id/img_dress14"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/img_dress14"
+            app:layout_constraintTop_toTopOf="@+id/txt_dress14name"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar6"
+            android:layout_width="407dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="#E8DEE1"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btn_backwardtoall"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="#E8DEE1"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/toolbar6"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/txt_tooldresses"
+            android:layout_width="157dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="DRESSES"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@+id/btn_backwardtoall"
+            app:layout_constraintTop_toTopOf="@+id/toolbar6"
+            tools:ignore="HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/btn_addcart"
+            android:layout_width="59dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:background="#E8DEE1"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+            app:layout_constraintStart_toEndOf="@+id/txt_tooldresses"
+            app:layout_constraintTop_toTopOf="@+id/toolbar6"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/cart"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="58dp"
+            android:layout_height="56dp"
+            android:background="#E8DEE1"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_addcart"
+            app:layout_constraintTop_toTopOf="@+id/toolbar6"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
