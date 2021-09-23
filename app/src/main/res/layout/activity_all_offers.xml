@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-        <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
@@ -14,12 +14,9 @@
         android:background="#E8DEE1">
 
         <ImageButton
-            android:id="@+id/btn_backwardtocat"
-            android:layout_width="54dp"
+            android:id="@+id/btn_ofrtocat"
+            android:layout_width="63dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="1dp"
-            android:layout_marginLeft="10dp"
-            android:background="#E8DEE1"
             app:srcCompat="?attr/actionModeCloseDrawable"
             tools:ignore="SpeakableTextPresentCheck" />
 
@@ -27,16 +24,16 @@
             android:id="@+id/txt_tooldresses"
             android:layout_width="157dp"
             android:layout_height="57dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="76dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="4dp"
-            android:text="DRESSES"
+            android:text="OFFERS"
             android:textSize="30sp"
             tools:ignore="HardcodedText" />
 
         <ImageButton
             android:id="@+id/imageButton4"
-            android:layout_width="64dp"
+            android:layout_width="63dp"
             android:layout_height="match_parent"
             android:layout_marginStart="50dp"
             android:layout_marginLeft="32dp"
@@ -46,13 +43,12 @@
 
         <ImageButton
             android:id="@+id/imageButton7"
-            android:layout_width="59dp"
+            android:layout_width="64dp"
             android:layout_height="match_parent"
             android:background="#E8DEE1"
             app:srcCompat="@drawable/profile"
             tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
     </TableRow>
-
 
     <ScrollView
     android:layout_width="409dp"
@@ -69,44 +65,16 @@
         tools:context=".all_dresses">
 
 
-        <ImageButton
-            android:id="@+id/btn_imgdress13"
-            android:layout_width="150dp"
-            android:layout_height="263dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="60dp"
-            android:scaleType="fitCenter"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/dress13"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/btn_imgdress14"
-            android:layout_width="150dp"
-            android:layout_height="263dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.951"
-            app:layout_constraintStart_toEndOf="@+id/btn_imgdress13"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/dress14"
-            tools:ignore="SpeakableTextPresentCheck" />
-
         <TextView
             android:id="@+id/txt_dress13"
             android:layout_width="150dp"
             android:layout_height="44dp"
             android:layout_marginTop="20dp"
-            android:text="@string/txt_dress13"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress13"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress13"
-            app:layout_constraintTop_toBottomOf="@+id/btn_imgdress13" />
+            android:text="black short dress"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton11"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
 
         <TextView
             android:id="@+id/txt_dress10"
@@ -156,11 +124,9 @@
             android:layout_width="150dp"
             android:layout_height="44dp"
             android:layout_marginTop="20dp"
-            android:text="@string/txt_dress14"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress14"
-            app:layout_constraintHorizontal_bias="0.532"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress14"
-            app:layout_constraintTop_toBottomOf="@+id/btn_imgdress14" />
+            android:text="Floral long dress"
+            app:layout_constraintStart_toStartOf="@+id/imageButton6"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
 
         <TextView
             android:id="@+id/txt_dress11"
@@ -168,10 +134,10 @@
             android:layout_height="44dp"
             android:layout_marginTop="12dp"
             android:text="@string/txt_dress11"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress11"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton15"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress11"
-            app:layout_constraintTop_toBottomOf="@+id/btn_imgdress11" />
+            app:layout_constraintStart_toStartOf="@+id/imageButton15"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton15" />
 
         <TextView
             android:id="@+id/txt_dress14p"
@@ -200,24 +166,10 @@
             android:layout_height="263dp"
             android:layout_marginTop="44dp"
             android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress13"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress13"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+            app:layout_constraintStart_toStartOf="@+id/imageButton11"
             app:layout_constraintTop_toBottomOf="@+id/txt_dress13"
             app:srcCompat="@drawable/dress10"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/btn_imgdress11"
-            android:layout_width="150dp"
-            android:layout_height="263dp"
-            android:layout_marginTop="44dp"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress14"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress14"
-            app:layout_constraintTop_toBottomOf="@+id/txt_dress14"
-            app:srcCompat="@drawable/dress11"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
@@ -248,9 +200,8 @@
             android:layout_height="263dp"
             android:layout_marginTop="32dp"
             android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress11"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress11"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton15"
+            app:layout_constraintStart_toStartOf="@+id/imageButton15"
             app:layout_constraintTop_toBottomOf="@+id/txt_dress11p"
             app:srcCompat="@drawable/dress15"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -277,36 +228,6 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_dress15" />
 
         <ImageButton
-            android:id="@+id/btn_drsaddwlbtn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="48dp"
-            android:minHeight="48dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btn_imgdress13"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress13"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress13"
-            app:layout_constraintTop_toTopOf="@+id/btn_imgdress13"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/addwishlist"
-            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/btn_drsaddwlbtn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="48dp"
-            android:minHeight="48dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btn_imgdress14"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress14"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress14"
-            app:layout_constraintTop_toTopOf="@+id/btn_imgdress14"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/addwishlist"
-            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
-
-        <ImageButton
             android:id="@+id/btn_drsaddwlbtn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -323,24 +244,11 @@
             tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/btn_drsaddwlbtn4"
+            android:id="@+id/imageButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btn_imgdress11"
-            app:layout_constraintEnd_toEndOf="@+id/btn_imgdress11"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/btn_imgdress11"
-            app:layout_constraintTop_toTopOf="@+id/btn_imgdress11"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/addwishlist"
-            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/btn_imgdress12"
             app:layout_constraintEnd_toEndOf="@+id/btn_imgdress12"
             app:layout_constraintHorizontal_bias="0.0"
@@ -348,7 +256,7 @@
             app:layout_constraintTop_toTopOf="@+id/btn_imgdress12"
             app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/addwishlist"
-            tools:ignore="VectorDrawableCompat" />
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/imageButton10"
@@ -363,7 +271,88 @@
             app:srcCompat="@drawable/addwishlist"
             tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
 
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="150dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ofrstwo"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton6"
+            app:layout_constraintTop_toTopOf="@+id/imageButton6"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/addwishlist"
+            tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="150dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+            app:layout_constraintHorizontal_bias="0.282"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/offersone"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btn_ofrwlbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton11"
+            app:layout_constraintTop_toTopOf="@+id/imageButton11"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/addwishlist"
+            tools:ignore="SpeakableTextPresentCheck,VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="150dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="108dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/btn_imgdress10"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            app:srcCompat="@drawable/ofrsthree"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton15"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton15"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton15"
+            app:layout_constraintTop_toTopOf="@+id/imageButton15"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/addwishlist"
+            tools:ignore="SpeakableTextPresentCheck,VectorDrawableCompat" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
+
 </LinearLayout>

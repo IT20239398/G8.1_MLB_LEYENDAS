@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toolbar;
 import android.widget.ViewFlipper;
@@ -15,7 +16,6 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class Home_activity extends AppCompatActivity {
 
-    ImageButton menubutton;
 
     SliderView sliderView;
     int[] images = {
@@ -34,14 +34,6 @@ public class Home_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        ImageButton menubutton = (ImageButton) findViewById(R.id.btn_sidenav);
-        menubutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent menubtn = new Intent(Home_activity.this,menu.class);
-                startActivity(menubtn);
-            }
-        });
 
         sliderView = findViewById(R.id.image_slider);
         SliderAdapter sliderAdapter = new SliderAdapter(images);
@@ -53,4 +45,22 @@ public class Home_activity extends AppCompatActivity {
 
 
     }
-}
+        public void gotooffers(View view) {
+            // Do something in response to button
+            Intent intent = new Intent(this, all_offers.class);
+            //EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
+            //String message = editText.getText().toString();
+            // intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
+        }
+
+    public void gotomenu(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, menu.class);
+        //EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
+        //String message = editText.getText().toString();
+        // intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+    }
+

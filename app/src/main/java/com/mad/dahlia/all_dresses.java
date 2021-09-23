@@ -14,6 +14,8 @@ public class all_dresses extends AppCompatActivity {
     ImageButton backward;
     ImageButton wlbtn1;
     ImageButton wlbtn2;
+    ImageButton wlbtn3;
+    ImageButton wlbtn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,9 +23,11 @@ public class all_dresses extends AppCompatActivity {
         setContentView(R.layout.activity_all_dresses);
 
          dressfourteen = (ImageButton) findViewById(R.id.btn_imgdress14);
-         backward = (ImageButton) findViewById(R.id.btn_backward) ;
+         backward = (ImageButton) findViewById(R.id.btn_backwardtocat) ;
          wlbtn1 = (ImageButton) findViewById(R.id.btn_drsaddwlbtn1);
          wlbtn2 = (ImageButton) findViewById(R.id.btn_drsaddwlbtn2);
+         wlbtn3 = (ImageButton) findViewById(R.id.btn_drsaddwlbtn3);
+         wlbtn4 = (ImageButton) findViewById(R.id.btn_drsaddwlbtn4);
 
         dressfourteen.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,5 +63,22 @@ public class all_dresses extends AppCompatActivity {
             }
         });
 
+        wlbtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(all_dresses.this,
+                        "Added to the wish list",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
+
+        wlbtn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(all_dresses.this,
+                        "Added to the wish list",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }

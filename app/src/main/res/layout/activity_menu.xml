@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/menubackground_image"
-    android:orientation="vertical"
-    tools:context=".menu"
-    android:alpha="0.899">
+    android:onClick="gotocategories"
+    tools:ignore="UsingOnClickInXml">
+    <!--    android:background="@drawable/menubackground_image"-->
+    <!--    android:orientation="vertical"-->
+    <!--    tools:context=".menu"-->
+    <!--    android:alpha="0.899">-->
 
 
-    <!--    <ImageView-->
-    <!--        android:id="@+id/img_menubackground"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:alpha="0.889"-->
-    <!--        android:scaleType="fitXY"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="1.0"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="0.0"-->
-    <!--        app:srcCompat="@drawable/menubackground_image"-->
-    <!--        android:contentDescription="TODO" />-->
+    <!--    android:scaleType="fitXY"-->
 
 
     <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="511dp"
+        android:layout_height="770dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512"
+        app:srcCompat="@drawable/mainbackground" />
+
+    <ImageView
         android:id="@+id/img_logomenu"
-        android:layout_width="409dp"
-        android:layout_height="159dp"
+        android:layout_width="435dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -41,156 +43,161 @@
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
         android:drawableLeft="@drawable/home"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
         android:minWidth="32dp"
+        android:onClick="gotohome"
         android:text="HOME"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_logomenu"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menucategories"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/categories"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
+        android:onClick="gotocategories"
         android:text="CATEGORIES"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menuhome"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menucart"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/cart"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
         android:text="CART"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menucategories"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menuwishlist"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/wishlist"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
+        android:onClick="gotowishlist"
         android:text="WISH LIST"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menucart"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menuyourorders"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/yourorders"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
         android:text="YOUR ORDERS"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menuwishlist"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menurefund"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/refund"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
         android:text="REFUND"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menuyourorders"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menufeedback"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/feedback"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
         android:text="FEEDBACK"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menurefund"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
-        tools:ignore="HardcodedText"
-        android:layout_gravity="center"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_menumyaccount"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/profile"
-        android:drawableTint="#FFF"
+        android:drawableTint="#000"
         android:text="MY ACCOUNT"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_menufeedback"
-        app:strokeColor="#FFF"
+        app:strokeColor="#000"
         app:strokeWidth="1dp"
         tools:ignore="HardcodedText" />
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
