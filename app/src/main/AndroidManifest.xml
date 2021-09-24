@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dahlia">
         <activity
+            android:name=".wish_list"
+            android:exported="true" />
+        <activity
             android:name=".all_offers"
             android:exported="true" />
         <activity
