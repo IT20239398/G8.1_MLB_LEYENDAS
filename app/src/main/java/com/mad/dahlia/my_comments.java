@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class my_comments extends AppCompatActivity {
 
+//    Textview
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

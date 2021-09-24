@@ -8,15 +8,15 @@
     tools:context=".update_comments">
 
     <ImageView
-        android:id="@+id/bgImageUpdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/bgImageUpdate"
+        android:id="@+id/imgBgUpdate"
+        android:layout_width="448dp"
+        android:layout_height="772dp"
+        android:alpha="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg" />
+        app:srcCompat="@drawable/backgroundt" />
 
     <Button
         android:id="@+id/BtnupdateComments"
@@ -61,21 +61,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtComments"
         app:layout_constraintVertical_bias="0.283" />
-
-    <EditText
-        android:id="@+id/editCommenttext"
-        android:layout_width="206dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
-        android:background="@drawable/textviewback"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/txtimgbox"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/txtimgbox"
-        app:layout_constraintTop_toTopOf="@+id/txtimgbox"
-        app:layout_constraintVertical_bias="0.24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

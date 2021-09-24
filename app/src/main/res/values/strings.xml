@@ -36,4 +36,6 @@
     <string name="TxtpurchDateadd">Puchased Date</string>
     <string name="txtimgbox" />
     <string name="bgImageUpdate" />
+    <string name="textViewRefundDetails">Refund Details</string>
+    <string name="txtproefAmount">Refund Amount</string>
 </resources>

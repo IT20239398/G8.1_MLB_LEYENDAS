@@ -3,12 +3,46 @@ package com.mad.dahlia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class new_refund extends AppCompatActivity {
+    Button btnSubmitRef;
+    EditText TxtpurchDateadd, txtpurcTypeadd, txtprCodeadd, txtprnameadd, txtReasonadd;
+    DatabaseReference ref;
+    Refund refund;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_refund);
+
+        TxtpurchDateadd = (EditText)findViewById(R.id.TxtpurchDateadd);
+        txtpurcTypeadd = (EditText)findViewById(R.id.txtpurcTypeadd);
+        txtprCodeadd = (EditText)findViewById(R.id.txtprCodeadd);
+        txtprnameadd = (EditText)findViewById(R.id.txtprnameadd);
+        txtReasonadd = (EditText)findViewById(R.id.txtReasonadd);
+        refund = new Refund();
+        ref = FirebaseDatabase.getInstance().getReference().child("Refund");
+
+        btnSubmitRef = findViewById(R.id.btnSubmit);
+        btnSubmitRef.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                refund.setDate(TxtpurchDateadd.getText().toString().trim());
+                refund.setType(txtpurcTypeadd.getText().toString().trim());
+                refund.setCode(txtprCodeadd.getText().toString().trim());
+                refund.setName(txtprnameadd.getText().toString().trim());
+                refund.setReason(txtReasonadd.getText().toString().trim());
+                Toast.makeText(new_refund.this,
+                        "Refund request added",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }
