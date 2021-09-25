@@ -12,6 +12,7 @@
         android:layout_width="741dp"
         android:layout_height="1074dp"
         android:alpha="0.8"
+        android:background="#535050"
         android:contentDescription="@string/BgaddCom"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +20,53 @@
         app:layout_constraintTop_toTopOf="@+id/imgLogo"
         app:layout_constraintVertical_bias="0.494"
         app:srcCompat="@drawable/bgaddcom" />
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="#DFDFDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/backarrow"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/feedbacks"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            android:fontFamily="@font/athiti_medium"
+            android:gravity="center"
+            android:text="@string/feedbackadd"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/search"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat" />
+
+    </TableRow>
     <TextView
         android:id="@+id/txtFeedbackHeading"
         android:layout_width="225dp"
@@ -43,7 +90,20 @@
         app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtFeedbackHeading"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="@string/Rate"
+        app:backgroundTint="#535050"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBarFeedback" />
 
     <TextView
         android:id="@+id/textView8"

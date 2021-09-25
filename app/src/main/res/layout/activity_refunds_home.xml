@@ -18,6 +18,54 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background" />
 
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="#DFDFDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/menu_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/feedbacks"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            android:fontFamily="@font/athiti_medium"
+            android:gravity="center"
+            android:text="@string/refunds"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/search"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat" />
+
+    </TableRow>
+
     <Button
         android:id="@+id/btnMy_refunds"
         android:layout_width="200dp"
@@ -32,13 +80,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnNew_refund"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <Button
         android:id="@+id/btnNew_refund"
         android:layout_width="198dp"
         android:layout_height="0dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="116dp"
         android:background="@drawable/button"
         android:onClick="sendToNewRefund"
         android:text="@string/new_refund"
@@ -50,17 +98,16 @@
 
     <ImageView
         android:id="@+id/dahilaLogo"
-        android:layout_width="320dp"
-        android:layout_height="198dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="344dp"
+        android:layout_height="112dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/txtRefundDescription"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436"
+        app:layout_constraintVertical_bias="0.098"
         app:srcCompat="@drawable/black3x" />
 
     <TextView
@@ -73,7 +120,7 @@
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

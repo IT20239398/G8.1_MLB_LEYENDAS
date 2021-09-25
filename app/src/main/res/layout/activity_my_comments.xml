@@ -18,30 +18,63 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/backgroundt" />
 
-    <TextView
-        android:id="@+id/txtComment2"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="64dp"
-        android:background="#AAAAAA"
-        android:text="@string/txtComment2"
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="#DFDFDF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="53dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="76dp"
-        android:background="@null"
-        app:layout_constraintBottom_toBottomOf="@+id/txtComment2"
-        app:layout_constraintEnd_toEndOf="@+id/txtComment2"
-        app:layout_constraintHorizontal_bias="0.967"
-        app:layout_constraintStart_toStartOf="@+id/txtComment2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/icon_deletemsg" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/backarrow"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/feedbacks"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            android:fontFamily="@font/athiti_medium"
+            android:gravity="center"
+            android:text="@string/mycomments"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/search"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat" />
+
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/commentList"
+        android:layout_width="411dp"
+        android:layout_height="555dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

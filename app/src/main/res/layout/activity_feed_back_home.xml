@@ -14,9 +14,58 @@
       android:alpha="0.85"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.388"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:srcCompat="@drawable/bgfeed" />
+
+  <TableRow
+      android:id="@+id/tableRow"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="16dp"
+      android:background="#DFDFDF"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="64dp"
+        android:layout_height="match_parent"
+        android:background="#DFDFDF"
+        app:srcCompat="@drawable/menu_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/feedbacks"
+        android:layout_width="227dp"
+        android:layout_height="match_parent"
+        android:background="#DFDFDF"
+        android:fontFamily="@font/athiti_medium"
+        android:gravity="center"
+        android:text="@string/feedbacks"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="58dp"
+        android:layout_height="match_parent"
+        android:background="#DFDFDF"
+        app:srcCompat="@drawable/search"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#DFDFDF"
+        app:srcCompat="@drawable/profile"
+        tools:ignore="VectorDrawableCompat" />
+
+  </TableRow>
 
   <TextView
       android:id="@+id/txtFeedbackDescription"
@@ -31,7 +80,7 @@
       app:layout_constraintHorizontal_bias="0.134"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.154" />
+      app:layout_constraintVertical_bias="0.242" />
 
   <Button
       android:id="@+id/btnAdd_feedback"
@@ -66,16 +115,17 @@
 
   <ImageView
       android:id="@+id/DahliaLogo"
-      android:layout_width="445dp"
-      android:layout_height="112dp"
+      android:layout_width="409dp"
+      android:layout_height="94dp"
       android:adjustViewBounds="true"
       android:contentDescription="@string/des_logo"
       android:scaleType="centerCrop"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.0"
+      app:layout_constraintTop_toTopOf="@+id/imgFeedbackHome"
+      app:layout_constraintVertical_bias="0.182"
       app:srcCompat="@drawable/black3x" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

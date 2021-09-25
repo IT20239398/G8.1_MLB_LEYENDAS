@@ -38,4 +38,18 @@
     <string name="bgImageUpdate" />
     <string name="textViewRefundDetails">Refund Details</string>
     <string name="txtproefAmount">Refund Amount</string>
+    <string name="PurchasedDateT">Purchased Date</string>
+    <string name="PurchaseTypeT">"Purchase Type "</string>
+    <string name="feedbacks">FEEDBACKS</string>
+    <string name="addfeedback">ADD BACKFEED</string>
+    <string name="feedbackadd">ADD FEEDBACK</string>
+    <string name="mycomments">MY COMMENTS</string>
+    <string name="myrefunds">MY REFUNDS</string>
+    <string name="addrefund">ADD REFUND</string>
+    <string name="refunds">REFUNDS</string>
+    <string name="newrefund">NEW REFUND</string>
+    <string name="Rate">RATE</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnUpdate">Update</string>
+    <string name="updateComments">UPDATE COMMENTS</string>
 </resources>
