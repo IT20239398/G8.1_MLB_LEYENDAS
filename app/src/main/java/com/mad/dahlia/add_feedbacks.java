@@ -41,9 +41,18 @@ public class add_feedbacks extends AppCompatActivity {
     btnRate.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+
             String s = String.valueOf(ratingBarFeedback.getRating());
-            Toast.makeText(getApplicationContext(),s+"Star"
-            ,Toast.LENGTH_LONG).show();
+            if (ratingBarFeedback.getRating()==0.0){
+                Toast.makeText(add_feedbacks.this,
+                        "Rate before submitting",
+                        Toast.LENGTH_LONG).show();
+            }
+            else {
+                Toast.makeText(getApplicationContext(),s+"Star"
+                        ,Toast.LENGTH_LONG).show();
+            }
+
         }
     });
 

@@ -44,16 +44,6 @@ public class my_comments extends AppCompatActivity {
         recyclerView.setAdapter(myAdapter);
 
 
-//        btnDelete.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                String comment="";
-//                deleteComment(comment);
-//            }
-//        });
-//
-
-
 
         ref.addValueEventListener(new ValueEventListener() {
             @Override
