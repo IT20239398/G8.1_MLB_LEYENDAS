@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dahlia">
+        <activity
+            android:name=".Saved_Card_Details"
+            android:exported="true" />
+        <activity
+            android:name=".Order_Review"
+            android:exported="true" />
+        <activity
+            android:name=".Card_Details"
+            android:exported="true" />
+        <activity
+            android:name=".Payment_Type"
+            android:exported="true" />
+        <activity
+            android:name=".Receiver_Details"
+            android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
