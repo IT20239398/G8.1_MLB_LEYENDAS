@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"/>
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="173dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="110dp"
+    <ImageView
+        android:id="@+id/getStartView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_1"
         android:layout_marginRight="110dp"
         android:onClick="Delivery"
         android:text="Payment"
@@ -32,16 +32,51 @@
 
     <EditText
         android:id="@+id/amount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="167dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_categories"
+        android:layout_width="414dp"
+        android:layout_height="48dp"
+        android:text="categories"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <ImageView
+        android:id="@id/imageView"
+        android:layout_marginBottom="68dp"
+        android:contentDescription="@string/material_motion_easing_accelerated"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toTopOf="@+id/start"
+        app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintVertical_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_start"
+        android:fontFamily="@font/athiti_bold"
+        android:text="@string/getStartbtn"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".9" />

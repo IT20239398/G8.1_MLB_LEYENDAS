@@ -4,30 +4,45 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.view.View;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     EditText amt ;
     public static final String Amount = "com.mad.dahlia.MESSAGE";
+
+    Button btn1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        amt = findViewById(R.id.amount);
-    }
+        btn1 = findViewById(R.id.start);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,LoginSignupFrag.class);
+                startActivity(intent);
+            }
+        });
+        button1 = (Button) findViewById(R.id.btn_home);
+        button2 = (Button) findViewById(R.id.btn_categories);
 
-    public void Delivery(View view){
-        Intent intent = new Intent(this, Receiver_Details.class);
-        intent.putExtra(Amount, amt.getText().toString());
-        startActivity(intent);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Home_activity.class);
+                startActivity(intent);
 
-    }
-
-    public void checkCardDetails(View view){
-        Intent intent = new Intent(this, Saved_Card_Details.class);
-        startActivity(intent);
-    }
-}
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent categories = new Intent(MainActivity.this, Categories.class);
+                startActivity(categories);
+            }
+    });
+}}

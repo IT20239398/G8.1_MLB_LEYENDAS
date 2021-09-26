@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/imgbg"
+    tools:context=".new_refund">
+
+    <ImageView
+        android:id="@+id/imgbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:contentDescription="@string/imgbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bgfeed__2_" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="#DFDFDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/backarrow"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/feedbacks"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            android:fontFamily="@font/athiti_medium"
+            android:gravity="center"
+            android:text="@string/newrefund"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/search"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtBoxadd"
+        android:layout_width="362dp"
+        android:layout_height="580dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/boxrefundadd"
+        app:layout_constraintEnd_toEndOf="@+id/imgbg"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/imgbg"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow" />
+
+    <EditText
+        android:id="@+id/txtReasonadd"
+        android:layout_width="318dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/textviewback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/txtprnameadd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtprnameadd"
+        app:layout_constraintTop_toBottomOf="@+id/txtprnameadd" />
+
+    <TextView
+        android:id="@+id/txtPurchDateV"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/txtPurchDate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TxtpurchDateadd"
+        app:layout_constraintEnd_toEndOf="@+id/txtBoxadd"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="@+id/txtBoxadd"
+        app:layout_constraintTop_toTopOf="@+id/txtBoxadd"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtPurchaseTypeV"
+        android:layout_width="177dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtPurchaseType"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtPurchDateV"
+        app:layout_constraintTop_toBottomOf="@+id/txtPurchDateV" />
+
+    <TextView
+        android:id="@+id/txtproCode"
+        android:layout_width="181dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtproCode"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtPurchaseTypeV"
+        app:layout_constraintTop_toBottomOf="@+id/txtPurchaseTypeV" />
+
+    <TextView
+        android:id="@+id/txtpronameV"
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtproname"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtproCode"
+        app:layout_constraintTop_toBottomOf="@+id/txtproCode" />
+
+    <TextView
+        android:id="@+id/txtreason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtreason"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtpronameV"
+        app:layout_constraintTop_toBottomOf="@+id/txtpronameV" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="99dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/btnSubmit"
+        android:textColor="#373535"
+        app:backgroundTint="#F3EAEA"
+        app:layout_constraintBottom_toBottomOf="@+id/txtBoxadd"
+        app:layout_constraintEnd_toEndOf="@+id/txtBoxadd" />
+
+    <TextView
+        android:id="@+id/hdAddref"
+        android:layout_width="275dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="519dp"
+        android:gravity="center"
+        android:text="@string/hdAddref"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/txtBoxadd"
+        app:layout_constraintEnd_toEndOf="@+id/txtBoxadd"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/txtBoxadd"
+        app:layout_constraintTop_toTopOf="@+id/txtBoxadd"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/TxtpurchDateadd"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:background="@drawable/textviewback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtBoxadd"
+        app:layout_constraintEnd_toEndOf="@+id/txtBoxadd"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/txtBoxadd"
+        app:layout_constraintTop_toTopOf="@+id/txtBoxadd"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <EditText
+        android:id="@+id/txtprCodeadd"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/textviewback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/txtpurcTypeadd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtpurcTypeadd"
+        app:layout_constraintTop_toBottomOf="@+id/txtpurcTypeadd" />
+
+    <EditText
+        android:id="@+id/txtprnameadd"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/textviewback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/txtprCodeadd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtprCodeadd"
+        app:layout_constraintTop_toBottomOf="@+id/txtprCodeadd" />
+
+    <EditText
+        android:id="@+id/txtpurcTypeadd"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/textviewback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/TxtpurchDateadd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TxtpurchDateadd"
+        app:layout_constraintTop_toBottomOf="@+id/TxtpurchDateadd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
