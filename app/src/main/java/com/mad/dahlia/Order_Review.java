@@ -63,8 +63,6 @@ public class Order_Review extends AppCompatActivity {
         Receiver();
         Calculate();
         getItems();
-
-        order = new Order();
     }
 
     private void getItems() {
@@ -100,7 +98,6 @@ public class Order_Review extends AppCompatActivity {
         Damount.setText("LKR " + String.valueOf(damount));
         Tamount.setText("LKR " + String.valueOf(tamount));
 
-     //   addOrder();
     }
 
     protected  void Receiver(){
@@ -116,8 +113,9 @@ public class Order_Review extends AppCompatActivity {
         startActivity(intent);
     }
 
-  /*  public void addOrder(){
-        DB = FirebaseDatabase.getInstance().getReference().child("Orders").child("Username").child("date");
+    public void addOrder(View view){
+        DB = FirebaseDatabase.getInstance().getReference().child("Orders").child("Username");
+        order = new Order();
 
         try {
             if(TextUtils.isEmpty(Ptype.toString())){
@@ -129,23 +127,26 @@ public class Order_Review extends AppCompatActivity {
                 order.setContactNo(contactNo.getText().toString());
                 order.setType(Ptype.getText().toString());
 
-                order.setCharge(Double.parseDouble(Dcharge.getText().toString()));
-                order.setDiscount(Double.parseDouble(Damount.getText().toString()));
-                order.setSubtotal(Double.parseDouble(Samount.getText().toString()));
-                order.setTotalAmount(Double.parseDouble(Tamount.getText().toString()));
+                order.setCharge(charge);
+                order.setDiscount(damount);
+                order.setSubtotal(samount);
+                order.setTotalAmount(tamount);
 
                 order.setCode(drsName.getText().toString());
                 order.setColor(drsColor.getText().toString());
                 order.setPrice(drsPrice.getText().toString());
                 order.setQuantity(drsQty.getText().toString());
 
-                DB.push().setValue(order);
+                DB.child("set").setValue(order);
 
                 Toast.makeText(getApplicationContext(), "Order successfully added", Toast.LENGTH_LONG).show();
+
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
 
             }
         }catch(NumberFormatException e){
             Toast.makeText(getApplicationContext(), "Number format error", Toast.LENGTH_SHORT).show();
         }
-    }*/
+    }
 }

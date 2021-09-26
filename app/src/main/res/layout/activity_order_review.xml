@@ -468,8 +468,10 @@
                 android:layout_marginTop="-50dp"
                 android:layout_marginBottom="100dp"
                 android:background="#DFDFDF"
+                android:onClick="addOrder"
                 android:text="@string/OrderConfirm"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                tools:ignore="OnClick" />
 
         </LinearLayout>
     </ScrollView>
