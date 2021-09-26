@@ -55,7 +55,7 @@ public class menu extends AppCompatActivity {
 
     public void gotowishlist(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, Home_activity.class);
+        Intent intent = new Intent(this, wish_list.class);
         //EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
         //String message = editText.getText().toString();
         // intent.putExtra(EXTRA_MESSAGE, message);

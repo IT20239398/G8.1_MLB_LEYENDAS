@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
 
     <TableRow
         android:layout_marginTop="20dp"
@@ -104,154 +105,15 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
             tools:ignore="HardcodedText" />
 
-        <Button
-            android:id="@+id/btn_dressS"
-            android:layout_width="53dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btnssize"
-            android:scaleType="center"
-            android:text="S"
-            android:textColor="#000"
-            app:backgroundTint="#FFFFFF"
-            app:layout_constraintStart_toEndOf="@+id/txt_dress14size"
-            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dressM"
-            android:layout_width="53dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btnssize"
-            android:scaleType="center"
-            android:text="M"
-            android:textColor="#000"
-            app:backgroundTint="#FFFFFF"
-            app:layout_constraintStart_toEndOf="@+id/btn_dressS"
-            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dressL"
-            android:layout_width="53dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btnssize"
-            android:scaleType="center"
-            android:text="L"
-            android:textColor="#000"
-            app:backgroundTint="#FFFFFF"
-            app:layout_constraintStart_toEndOf="@+id/btn_dressM"
-            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dressXL"
-            android:layout_width="53dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btnssize"
-            android:scaleType="center"
-            android:text="XL"
-            android:textColor="#000"
-            app:backgroundTint="#FFFFFF"
-            app:layout_constraintStart_toEndOf="@+id/btn_dressL"
-            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dressXXL"
-            android:layout_width="54dp"
-            android:layout_height="49dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginLeft="52dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btnssize"
-            android:scaleType="center"
-            android:text="XXL"
-            android:textColor="#000"
-            android:textSize="10sp"
-            app:backgroundTint="#FFFFFF"
-            app:layout_constraintStart_toEndOf="@+id/btn_dressL"
-            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
-            tools:ignore="HardcodedText,SmallSp,TouchTargetSizeCheck" />
-
         <TextView
             android:id="@+id/txt_dresscolor"
             android:layout_width="71dp"
             android:layout_height="23dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="40dp"
             android:text="@string/txt_dress13color"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/txt_dress14size"
             app:layout_constraintTop_toBottomOf="@+id/txt_dress14size" />
-
-        <Button
-            android:id="@+id/btn_dressred"
-            android:layout_width="46dp"
-            android:layout_height="38dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btncolor"
-            app:backgroundTint="#E11010"
-            app:layout_constraintStart_toEndOf="@+id/txt_dresscolor"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dressS"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dresslightpink"
-            android:layout_width="44dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btncolor"
-            app:backgroundTint="#D67C9B"
-            app:layout_constraintStart_toEndOf="@+id/btn_dressred"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dressS"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dresslightblue"
-            android:layout_width="44dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btncolor"
-            app:backgroundTint="#7BB7E6"
-            app:layout_constraintStart_toEndOf="@+id/btn_dresslightpink"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dressS"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dressblack"
-            android:layout_width="44dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:background="@drawable/ushani_dress_btncolor"
-            app:backgroundTint="#000000"
-            app:layout_constraintStart_toEndOf="@+id/btn_dresslightblue"
-            app:layout_constraintTop_toTopOf="@+id/btn_dresslightblue"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/btn_dresspurple"
-            android:layout_width="44dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/ushani_dress_btncolor"
-            app:backgroundTint="#9C27B0"
-            app:layout_constraintStart_toEndOf="@+id/btn_dressblack"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dressL"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/img_dress14"
@@ -281,7 +143,9 @@
             android:id="@+id/txt_dress14quantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="168dp"
             android:text="QUANTITY: "
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/txt_dresscolor"
@@ -291,63 +155,66 @@
         <Button
             android:id="@+id/btn_qntdecrement"
             android:layout_width="67dp"
-            android:layout_height="62dp"
+            android:layout_height="40dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="24dp"
+
+            android:layout_marginBottom="12dp"
             android:background="@drawable/ushani_dress_btnqnt"
             android:onClick="decrement"
             android:text="-"
             android:textColor="#000000"
-            android:textSize="34sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:backgroundTint="#E6CECE"
+            app:layout_constraintBottom_toTopOf="@+id/btn_addtocart"
             app:layout_constraintStart_toEndOf="@+id/txt_dress14quantity"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dresslightpink"
             tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/btn_qntdecrement2"
-            android:layout_width="64dp"
-            android:layout_height="62dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="24dp"
+            android:layout_width="69dp"
+            android:layout_height="42dp"
             android:background="@drawable/ushani_dress_btnqnt"
+            android:gravity="center_horizontal"
             android:onClick="increment"
             android:text="+"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="34sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:backgroundTint="#E6CECE"
-            app:layout_constraintEnd_toEndOf="@+id/btn_dresspurple"
+            app:layout_constraintBottom_toTopOf="@+id/btn_addtocart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.239"
             app:layout_constraintStart_toEndOf="@+id/qntvalue"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dressblack"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck"
-            android:gravity="center_horizontal" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14name"
+            app:layout_constraintVertical_bias="0.962"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/qntvalue"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="40dp"
+            android:layout_width="42dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="152dp"
             android:gravity="center_horizontal"
             android:text="1"
             android:textAlignment="center"
             android:textColor="#050505"
             android:textSize="30sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_addtocart"
             app:layout_constraintStart_toEndOf="@+id/btn_qntdecrement"
-            app:layout_constraintTop_toBottomOf="@+id/btn_dresslightblue" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14name"
+            app:layout_constraintVertical_bias="0.906" />
 
         <Button
             android:id="@+id/btn_addtocart"
             android:layout_width="266dp"
             android:layout_height="48dp"
-            android:layout_marginTop="248dp"
+            android:layout_marginTop="365dp"
             android:background="@drawable/ushani_dress_btnqnt"
             android:drawableEnd="@drawable/cart"
             android:drawableRight="@drawable/cart"
@@ -359,6 +226,65 @@
             app:layout_constraintStart_toStartOf="@+id/img_dress14"
             app:layout_constraintTop_toTopOf="@+id/txt_dress14name"
             tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinnerdresssize"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toEndOf="@+id/txt_dress14size"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <RadioGroup
+            android:id="@+id/rdcolorgroup"
+            android:layout_width="197dp"
+            android:layout_height="173dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.01"
+            app:layout_constraintStart_toEndOf="@+id/txt_dresscolor"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerdresssize">
+
+            <RadioButton
+                android:id="@+id/rbcolorred"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RED" />
+
+            <RadioButton
+                android:id="@+id/rbcolorpink"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="PINK" />
+
+            <RadioButton
+                android:id="@+id/rbcolorblue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BLUE" />
+
+            <RadioButton
+                android:id="@+id/rbcolorblack"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="BLACK" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_dresscode14"
+            android:layout_width="102dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="4dp"
+            android:text="SD482"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/spinnerdresssize"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dress14price" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

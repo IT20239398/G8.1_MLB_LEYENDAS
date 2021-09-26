@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dahlia">
         <activity
+            android:name=".wish_list"
+            android:exported="true" />
+        <activity
             android:name=".all_offers"
             android:exported="true" />
         <activity
@@ -37,6 +40,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".dress_fourteen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

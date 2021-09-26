@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "721526732172",
+    "firebase_url": "https://it19237046-e957a-default-rtdb.firebaseio.com",
+    "project_id": "it19237046-e957a",
+    "storage_bucket": "it19237046-e957a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721526732172:android:1918f12c670f3cd92f52a9",
+        "android_client_info": {
+          "package_name": "com.mad.dahlia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721526732172-j5ni5r7j9251h9avgikmnpumm02ap65d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqE_qh_uQg1QhbpdaeJrBLoi6yDkI5fgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721526732172-j5ni5r7j9251h9avgikmnpumm02ap65d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

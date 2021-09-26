@@ -46,5 +46,6 @@
     <string name="txt_dress13size">SIZE</string>
     <string name="btn_dress13XS">XS</string>
     <string name="txt_dress13color">COLOR :</string>
+    <string name="itemDelete">Delete</string>
 
 </resources>
