@@ -45,4 +45,56 @@
     </string-array>
 
 
+    <string name="feedback_text">"We, ‘Dahlia’ team want to give  you an excellent service !  Give us your feedback to improve our service ! "</string>
+    <string name="add_feedback">Add feedback</string>
+    <string name="my_comments">My comments</string>
+    <string name="refund_home_text">" Here’s everything  you need to  know if  something  goes wrong  with an order or  if you change  your mind and  doesn’t want the  item anymore."</string>
+    <string name="new_refund">new refund</string>
+    <string name="my_refunds">my refunds</string>
+    <string name="update_comments">Comments</string>
+    <string name="update_comments_btn">update</string>
+    <string name="add_feedback_text1">Give us your feedback here!</string>
+    <string name="des_logo" />
+    <string name="purchased_date_text">Purchased Date</string>
+    <string name="refund_type_text">Refund type</string>
+    <string name="mycomment_txt">My comments</string>
+    <string name="addnewcommtext">Add a new comment</string>
+    <string name="confirmCommBtn">confirm</string>
+    <string name="txtComment1" />
+    <string name="txtComment2" />
+    <string name="txtPurchDate">Purchased Date</string>
+    <string name="typing_msg">Comment here!</string>
+    <string name="img_logo" />
+    <string name="updateComment" />
+    <string name="update_comment">Update your comment here!</string>
+    <string name="BgaddCom" />
+    <string name="txtPurchaseType">Purchase Type</string>
+    <string name="txtproCode">Product code</string>
+    <string name="txtproname">Product name</string>
+    <string name="txtreason">Reason to return</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="imgbg" />
+    <string name="hdAddref">Request for a refund</string>
+    <string name="txtPurchDateV">Purchased Date</string>
+    <string name="txtPurchaseTypeV">Purchase Type</string>
+    <string name="txtpronameV">Product name</string>
+    <string name="TxtpurchDateadd">Puchased Date</string>
+    <string name="txtimgbox" />
+    <string name="bgImageUpdate" />
+    <string name="textViewRefundDetails">Refund Details</string>
+    <string name="txtproefAmount">Refund Amount</string>
+    <string name="PurchasedDateT">Purchased Date</string>
+    <string name="PurchaseTypeT">"Purchase Type "</string>
+    <string name="feedbacks">FEEDBACKS</string>
+    <string name="addfeedback">ADD BACKFEED</string>
+    <string name="feedbackadd">ADD FEEDBACK</string>
+    <string name="mycomments">MY COMMENTS</string>
+    <string name="myrefunds">MY REFUNDS</string>
+    <string name="addrefund">ADD REFUND</string>
+    <string name="refunds">REFUNDS</string>
+    <string name="newrefund">NEW REFUND</string>
+    <string name="Rate">RATE</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnUpdate">Update</string>
+    <string name="updateComments">UPDATE COMMENTS</string>
 </resources>

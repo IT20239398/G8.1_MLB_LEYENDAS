@@ -4,5 +4,7 @@
         <item>@font/athiti</item>
         <item>@font/athiti_bold</item>
         <item>@font/athiti_semibold</item>
+        <item>@font/athiti_extralight</item>
+        <item>@font/athiti_medium</item>
     </array>
 </resources>
