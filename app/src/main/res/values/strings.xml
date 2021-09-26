@@ -1,5 +1,53 @@
 <resources>
     <string name="app_name">Dahlia</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_side_navigation_bar">side_navigation_bar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">HOME</string>
+    <string name="menu_categories">CATEGORIES</string>
+    <string name="menu_cart">CART</string>
+    <string name="menu_wishlist">WiISH LIST</string>
+    <string name="menu_yourorders">YOUR ORDERS</string>
+    <string name="menu_refund">REFUND</string>
+    <string name="menu_feedbacks">FEEDBACKS</string>
+    <string name="menu_myaccount">MY ACCOUNT</string>
+    <string name="btn_offersbtn">OFFERS</string>
+    <string name="solid_color_tie_up_dress">solid color tie up dress</string>
+    <string name="white_front_tied_linen_dress">white front tied linen dress</string>
+    <string name="view_more">VIEW MORE</string>
+    <string name="btn_catdresses">DRESSES</string>
+    <string name="btn_cattops">TOPS</string>
+    <string name="btn_cattshirts">T-SHIRTS</string>
+    <string name="btn_catshortsjeans"><![CDATA[SHORT & JEANS]]></string>
+    <string name="btn_catnightwear">NIGHT WEAR</string>
+    <string name="btn_catoffers">OFFERS</string>
+    <string name="btn_catnewarrivals">NEW ARRIVALS</string>
+    <string name="txt_dress13">"Light Blue Strappy Denim Dress "</string>
+    <string name="txt_dress13p">LKR 2375</string>
+    <string name="txt_dress14">Halter Neck Mini Dress By Coco</string>
+    <string name="txt_dress14p">LKR 1495</string>
+    <string name="txt_dress10">Yellow Mini Dress</string>
+    <string name="txt_dress10p">LKR 1950/=</string>
+    <string name="txt_dress11">White cliara short dress</string>
+    <string name="txt_dress11p">LKR 2000</string>
+    <string name="txt_dress12p">LKR 2000</string>
+    <string name="txt_dress12">White Pleated Short Dress</string>
+    <string name="txt_dress15">floral printed mini dress</string>
+    <string name="txt_dress15p">LKR 3500</string>
+    <string name="txt_dress13name">Light Blue Strappy Denim Dress | code DS502</string>
+    <string name="txt_dress13price">LKR 2375/=</string>
+    <string name="txt_dress13size">SIZE</string>
+    <string name="btn_dress13XS">XS</string>
+    <string name="txt_dress13color">COLOR :</string>
+    <string name="itemDelete">Delete</string>
+
     <string name="app_name1">google</string>
     <string name="app_name2">facebook</string>
     <string name="app_name3">inster</string>
