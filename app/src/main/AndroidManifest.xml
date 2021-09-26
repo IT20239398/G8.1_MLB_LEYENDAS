@@ -10,16 +10,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dahlia">
         <activity
-            android:name=".CartView"
+            android:name=".Saved_Card_Details"
             android:exported="true" />
         <activity
+            android:name=".Order_Review"
+            android:exported="true" />
+            android:name=".wish_list"
+            android:name=".CartView"
+            android:exported="true" />
+            android:exported="true" />
+        <activity
+        <activity
+            android:name=".Card_Details"
+            android:exported="true" />
+        <activity
+            android:name=".Payment_Type"
+            android:exported="true" />
+        <activity
+            android:name=".Receiver_Details"
+            android:exported="true" />
+            android:name=".all_offers"
             android:name=".EditProfile"
             android:exported="true" />
         <activity
+            android:name=".menu"
             android:name=".Profile"
             android:exported="true" />
         <activity
+            android:name=".all_dresses"
             android:name=".LoginSignupFrag"
+            android:exported="true" />
+        <activity
+            android:name=".Categories"
+            android:exported="true" />
+        <activity
+            android:name=".side_navigation_bar"
+            android:exported="true"
+            android:label="@string/title_activity_side_navigation_bar"
+            android:theme="@style/Theme.Dahlia.NoActionBar" />
+        <activity
+            android:name=".Home_activity"
             android:exported="true" />
         <activity android:name=".Refund_Details"
             android:exported="true"></activity>
@@ -54,9 +84,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".dress_fourteen" />
 
         <meta-data
             android:name="preloaded_fonts"
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
             android:resource="@array/preloaded_fonts" />
     </application>
 

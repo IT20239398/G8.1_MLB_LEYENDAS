@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+    EditText amt ;
+    public static final String Amount = "com.mad.dahlia.MESSAGE";
 
     Button btn1;
 
@@ -25,6 +27,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        button1 = (Button) findViewById(R.id.btn_home);
+        button2 = (Button) findViewById(R.id.btn_categories);
 
-    }
-}
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Home_activity.class);
+                startActivity(intent);
+
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent categories = new Intent(MainActivity.this, Categories.class);
+                startActivity(categories);
+            }
+    });
+}}
