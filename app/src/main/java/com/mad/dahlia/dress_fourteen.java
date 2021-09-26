@@ -111,6 +111,17 @@ public class dress_fourteen extends AppCompatActivity {
 
     }
 
+    //validation of the radio group
+
+    public void validation(){
+
+        int isSelected = radioGroup.getCheckedRadioButtonId();
+
+        if(isSelected == -1){
+            Toast.makeText(dress_fourteen.this,"you have not selected a color",Toast.LENGTH_LONG).show();
+            return;
+        }
+
     public void insertCart(){
         DB = FirebaseDatabase.getInstance().getReference().child("CartDet");
 
