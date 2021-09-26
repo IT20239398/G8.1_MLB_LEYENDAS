@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile"
+    tools:ignore="MissingClass">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@color/graylight"
+        android:fontFamily="@font/athiti"
+        android:paddingLeft="134dp"
+        android:paddingRight="134dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/edit_profile"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+
+<!--    <ImageButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_launcher_foreground"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/textView3"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView3"-->
+<!--        app:layout_constraintVertical_bias="0.602" />-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fName"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Full Name*"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.053">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fNameSpace"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:drawablePadding="10dp"
+            android:text="Jessica"
+            android:fontFamily="@font/athiti"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EmailAdd"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.174">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailSpace"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/athiti"
+            android:text="jessica99@gmail.com"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneNum"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Phone Number"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.286">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneSpace"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/athiti"
+            android:text="0768457956"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/birth"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Birth Day"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.524">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/birthSpace"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/athiti"
+            android:text="1999/04/03"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/genderspin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/athiti"
+        android:text="@string/Gender"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birth"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/genderspin"
+        app:layout_constraintTop_toBottomOf="@+id/birth"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/address"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/Address"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.763">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addressSpace"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/athiti"
+            android:text="2A Colombo Sri Lanka"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="@font/athiti_bold"
+        android:text="@string/save_update"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/graylight"
+        android:fontFamily="@font/athiti_bold"
+        android:text="@string/delete_account"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

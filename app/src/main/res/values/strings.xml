@@ -1,5 +1,50 @@
 <resources>
     <string name="app_name">Dahlia</string>
+    <string name="app_name1">google</string>
+    <string name="app_name2">facebook</string>
+    <string name="app_name3">inster</string>
+    <string name="startbtn">Get Start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_login">Email</string>
+    <string name="Password_login">Password</string>
+    <string name="Btnlogin">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="name_reg">Full Name</string>
+    <string name="email_reg">Email</string>
+    <string name="Password_reg">Password</string>
+    <string name="RePassword_reg">Re-Enter Password</string>
+    <string name="Btnreg">Register</string>
+    <string name="getStartbtn">Get Started</string>
+    <string name="TextView">Jessica Wang</string>
+    <string name="email">jessica99@gmail.com</string>
+    <string name="textview">Wish List</string>
+    <string name="textviewBag">My Bag</string>
+    <string name="textviewOrder">Orders</string>
+    <string name="Gender">Gender</string>
+    <string name="Female">Female</string>
+    <string name="Phone">Phone</string>
+    <string name="Phone2">0768457956</string>
+    <string name="Birth">Birthday</string>
+    <string name="bdate">1999/04/03</string>
+    <string name="Address">Address</string>
+    <string name="Add">2A Colombo Sri Lanka</string>
+    <string name="Addr">22A Flower Road, Colombo,Sri Lanka</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="first_name">First Name</string>
+    <string name="gender">Female</string>
+    <string name="save_update">Save</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="upper_text">10% OFF FOR NEW USERS</string>
+    <string name="full_name">Full Name</string>
+    <string name="emailAdd">Email</string>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>male</item>
+    </string-array>
+
+
     <string name="feedback_text">"We, ‘Dahlia’ team want to give  you an excellent service !  Give us your feedback to improve our service ! "</string>
     <string name="add_feedback">Add feedback</string>
     <string name="my_comments">My comments</string>
