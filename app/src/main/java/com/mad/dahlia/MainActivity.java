@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+    EditText amt ;
+    public static final String Amount = "com.mad.dahlia.MESSAGE";
 
     Button btn1;
 

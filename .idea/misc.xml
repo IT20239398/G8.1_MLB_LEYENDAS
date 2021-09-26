@@ -3,29 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/btn_bg.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/button_bg.xml" value="0.2703125" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/button_start.xml" value="0.2546875" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/edit_pro_bg.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/edit_text_bg.xml" value="0.1398148148148148" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/google.xml" value="0.2703125" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/ic_arrow.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/ic_draw.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/ic_lock.xml" value="0.2263888888888889" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/drawable/profile_bg.xml" value="0.2546875" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/font/athiti.xml" value="0.26461538461538464" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout-v21/activity_cart_view.xml" value="0.25416666666666665" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/activity_cart_view.xml" value="0.264" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/activity_edit_profile.xml" value="0.264" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/activity_login_signup_frag.xml" value="0.264" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/activity_profile.xml" value="0.264" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/fragment_signup.xml" value="0.264" />
-        <entry key="..\:/SLIIT JENU/YEAR 2/SEMESTER 2/3.MAD/MAD MAIN/DAHLIA/app/src/main/res/layout/item_design_cart.xml" value="0.22592592592592592" />
 =======
         <entry key="..\:/Users/Dell/Documents/ushani SLIIT/SLIIT Y2S2/MAD/DAHLIA STORE/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.2546875" />
         <entry key="..\:/Users/Dell/Documents/ushani SLIIT/SLIIT Y2S2/MAD/DAHLIA STORE/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.2546875" />

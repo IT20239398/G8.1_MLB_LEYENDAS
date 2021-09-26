@@ -10,12 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dahlia">
         <activity
+            android:name=".Saved_Card_Details"
+            android:exported="true" />
+        <activity
+            android:name=".Order_Review"
+            android:exported="true" />
             android:name=".wish_list"
             android:name=".CartView"
             android:exported="true" />
             android:exported="true" />
         <activity
         <activity
+            android:name=".Card_Details"
+            android:exported="true" />
+        <activity
+            android:name=".Payment_Type"
+            android:exported="true" />
+        <activity
+            android:name=".Receiver_Details"
+            android:exported="true" />
             android:name=".all_offers"
             android:name=".EditProfile"
             android:exported="true" />

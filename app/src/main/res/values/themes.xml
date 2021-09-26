@@ -22,4 +22,15 @@
     <style name="Theme.Dahlia.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Dahlia.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <style name="Theme.Dahlia.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Dahlia.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Dahlia.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

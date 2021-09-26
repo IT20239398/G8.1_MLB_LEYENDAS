@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Card_Details">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DFDFDF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-46dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="-40dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_search_24"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-40dp"
+            android:onClick="goBack"
+            app:srcCompat="@drawable/back"
+            tools:ignore="UsingOnClickInXml,VectorDrawableCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#97AFAFAF"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/RDAmount"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/PTotalValue"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-60dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp"
+            android:text="Total Amount"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="194dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:paddingLeft="30dp"
+        android:text="Card Details"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="392dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/card_logo_2" />
+
+    <EditText
+        android:id="@+id/CardNo"
+        android:layout_width="281dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="24dp"
+        android:background="#B1B1B1"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:paddingLeft="25dp"
+        android:text="@string/CDCardNumber"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        app:barrierMargin="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/Expire"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="43dp"
+        android:background="#B1B1B1"
+        android:ems="10"
+        android:hint="Expiry"
+        android:inputType="date"
+        android:paddingLeft="25dp"
+        android:text="@string/CDExpiry"
+        android:textColor="@color/black"
+        app:barrierMargin="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CardNo" />
+
+    <EditText
+        android:id="@+id/CVC"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="43dp"
+        android:background="#B1B1B1"
+        android:ems="10"
+        android:hint="CVC"
+        android:inputType="numberPassword"
+        android:paddingLeft="25dp"
+        android:password="true"
+        android:textColor="@color/black"
+        app:barrierMargin="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintStart_toEndOf="@+id/Expire"
+        app:layout_constraintTop_toBottomOf="@+id/CardNo" />
+
+    <CheckBox
+        android:id="@+id/saveCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:minHeight="48dp"
+        android:text="@string/CDSaveCardDet"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Expire" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:background="#DFDFDF"
+        android:onClick="getReview"
+        android:text="@string/PContinue"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveCard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
