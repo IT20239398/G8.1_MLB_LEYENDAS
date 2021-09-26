@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631840962828",
+    "project_id": "dahlia-fe78e",
+    "storage_bucket": "dahlia-fe78e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631840962828:android:6c174d432d308145a17129",
+        "android_client_info": {
+          "package_name": "com.mad.dahlia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631840962828-dfkmenjg34h750486vjhls0884jfi1c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuIxsIPkmfGl2XNv0CrML2BskhDBb8Lfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631840962828-dfkmenjg34h750486vjhls0884jfi1c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
