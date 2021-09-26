@@ -2,14 +2,14 @@ package com.mad.dahlia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.content.Intent;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button button1,button2;
+    Button btn1;
 
 
     @Override
@@ -17,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn1 = findViewById(R.id.start);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,LoginSignupFrag.class);
+                startActivity(intent);
+            }
+        });
         button1 = (Button) findViewById(R.id.btn_home);
         button2 = (Button) findViewById(R.id.btn_categories);
 

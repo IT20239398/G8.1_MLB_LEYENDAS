@@ -48,4 +48,101 @@
     <string name="txt_dress13color">COLOR :</string>
     <string name="itemDelete">Delete</string>
 
+    <string name="app_name1">google</string>
+    <string name="app_name2">facebook</string>
+    <string name="app_name3">inster</string>
+    <string name="startbtn">Get Start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_login">Email</string>
+    <string name="Password_login">Password</string>
+    <string name="Btnlogin">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="name_reg">Full Name</string>
+    <string name="email_reg">Email</string>
+    <string name="Password_reg">Password</string>
+    <string name="RePassword_reg">Re-Enter Password</string>
+    <string name="Btnreg">Register</string>
+    <string name="getStartbtn">Get Started</string>
+    <string name="TextView">Jessica Wang</string>
+    <string name="email">jessica99@gmail.com</string>
+    <string name="textview">Wish List</string>
+    <string name="textviewBag">My Bag</string>
+    <string name="textviewOrder">Orders</string>
+    <string name="Gender">Gender</string>
+    <string name="Female">Female</string>
+    <string name="Phone">Phone</string>
+    <string name="Phone2">0768457956</string>
+    <string name="Birth">Birthday</string>
+    <string name="bdate">1999/04/03</string>
+    <string name="Address">Address</string>
+    <string name="Add">2A Colombo Sri Lanka</string>
+    <string name="Addr">22A Flower Road, Colombo,Sri Lanka</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="first_name">First Name</string>
+    <string name="gender">Female</string>
+    <string name="save_update">Save</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="upper_text">10% OFF FOR NEW USERS</string>
+    <string name="full_name">Full Name</string>
+    <string name="emailAdd">Email</string>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>male</item>
+    </string-array>
+
+
+    <string name="feedback_text">"We, ‘Dahlia’ team want to give  you an excellent service !  Give us your feedback to improve our service ! "</string>
+    <string name="add_feedback">Add feedback</string>
+    <string name="my_comments">My comments</string>
+    <string name="refund_home_text">" Here’s everything  you need to  know if  something  goes wrong  with an order or  if you change  your mind and  doesn’t want the  item anymore."</string>
+    <string name="new_refund">new refund</string>
+    <string name="my_refunds">my refunds</string>
+    <string name="update_comments">Comments</string>
+    <string name="update_comments_btn">update</string>
+    <string name="add_feedback_text1">Give us your feedback here!</string>
+    <string name="des_logo" />
+    <string name="purchased_date_text">Purchased Date</string>
+    <string name="refund_type_text">Refund type</string>
+    <string name="mycomment_txt">My comments</string>
+    <string name="addnewcommtext">Add a new comment</string>
+    <string name="confirmCommBtn">confirm</string>
+    <string name="txtComment1" />
+    <string name="txtComment2" />
+    <string name="txtPurchDate">Purchased Date</string>
+    <string name="typing_msg">Comment here!</string>
+    <string name="img_logo" />
+    <string name="updateComment" />
+    <string name="update_comment">Update your comment here!</string>
+    <string name="BgaddCom" />
+    <string name="txtPurchaseType">Purchase Type</string>
+    <string name="txtproCode">Product code</string>
+    <string name="txtproname">Product name</string>
+    <string name="txtreason">Reason to return</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="imgbg" />
+    <string name="hdAddref">Request for a refund</string>
+    <string name="txtPurchDateV">Purchased Date</string>
+    <string name="txtPurchaseTypeV">Purchase Type</string>
+    <string name="txtpronameV">Product name</string>
+    <string name="TxtpurchDateadd">Puchased Date</string>
+    <string name="txtimgbox" />
+    <string name="bgImageUpdate" />
+    <string name="textViewRefundDetails">Refund Details</string>
+    <string name="txtproefAmount">Refund Amount</string>
+    <string name="PurchasedDateT">Purchased Date</string>
+    <string name="PurchaseTypeT">"Purchase Type "</string>
+    <string name="feedbacks">FEEDBACKS</string>
+    <string name="addfeedback">ADD BACKFEED</string>
+    <string name="feedbackadd">ADD FEEDBACK</string>
+    <string name="mycomments">MY COMMENTS</string>
+    <string name="myrefunds">MY REFUNDS</string>
+    <string name="addrefund">ADD REFUND</string>
+    <string name="refunds">REFUNDS</string>
+    <string name="newrefund">NEW REFUND</string>
+    <string name="Rate">RATE</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnUpdate">Update</string>
+    <string name="updateComments">UPDATE COMMENTS</string>
 </resources>
